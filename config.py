@@ -13,7 +13,7 @@ class Config(object):
         "HOST": "redis-12688.c256.us-east-1-2.ec2.cloud.redislabs.com",
         "PORT": 12688,
         "DB": "JohnRay-free-db",
-        "PASSWORD": uXkrNRrdY7i9sT0iFBDjWrioZ3pZQUS4
+        "PASSWORD": "uXkrNRrdY7i9sT0iFBDjWrioZ3pZQUS4"
     }
 
 class ProductionConfig(Config):
