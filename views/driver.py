@@ -13,6 +13,10 @@ def home():
     from models.request import ReqStatus
     req_status = request.args.get('req_status', ReqStatus.WAITING)
     driver_id = request.args.get('id')
+    try:
+        driver_id = int(driver_id)
+    except:
+        return "cannot convert to int"
     xhr = request.args.get('xhr', False)
 
     if driver_id is None:
