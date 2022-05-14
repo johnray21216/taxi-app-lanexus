@@ -21,7 +21,7 @@ python-dateutil==2.6.1
 python-editor==1.0.3
 pytz==2017.3
 PyYAML==3.12
-redis==6.2.3
+redis==3.5.3
 six==1.11.0
 SQLAlchemy==1.1.15
 tzlocal==1.5.1
