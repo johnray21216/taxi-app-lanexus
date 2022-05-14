@@ -133,4 +133,8 @@ def is_driver_exist(driver_id):
     :return: ```True``` if ```driver_id``` already exists in redis set TAXI_DRIVERS.
     """
     from redisutil import redis_connection
+    try:
+        driver_id = int(driver_id)
+    except:
+        return "cannot convert to int"
     return redis_connection.sismember('TAXI_DRIVERS', driver_id)
