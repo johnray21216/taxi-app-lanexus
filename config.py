@@ -10,10 +10,10 @@ class Config(object):
     RIDE_COMPLETION_DURATION_IN_SEC = 300
     DRIVER_THRESHOLD = 5
     REDIS = {
-        "HOST": "localhost",
+        "HOST": "redis-12688.c256.us-east-1-2.ec2.cloud.redislabs.com:12688",
         "PORT": 6379,
-        "DB": 0,
-        "PASSWORD": None
+        "DB": JohnRay-free-db,
+        "PASSWORD": uXkrNRrdY7i9sT0iFBDjWrioZ3pZQUS4
     }
 
 class ProductionConfig(Config):
