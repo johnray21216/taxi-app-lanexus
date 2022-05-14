@@ -12,8 +12,8 @@ class Config(object):
     REDIS = {
         "HOST": "redis-12688.c256.us-east-1-2.ec2.cloud.redislabs.com",
         "PORT": 12688,
-        "DB": "JohnRay-free-db",
-        "PASSWORD": "uXkrNRrdY7i9sT0iFBDjWrioZ3pZQUS4"
+        "DB": "taxi-app",
+        "PASSWORD": "pOW4ThGlhtR6fS8atmMeulDAqgWnkVa8"
     }
 
 class ProductionConfig(Config):
