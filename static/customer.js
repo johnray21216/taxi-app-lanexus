@@ -11,7 +11,6 @@ var ride = function(formSelector) {
            $('#res-status-alert').fadeIn();
        },
        error: function (e) {
-           console.log(res.message);
            $('#res-status-alert').html("Error while submitting ride request.");
            $('#res-status-alert').fadeIn();
        }
