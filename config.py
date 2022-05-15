@@ -12,7 +12,7 @@ class Config(object):
     REDIS = {
         "HOST": "redis-15374.c8.us-east-1-3.ec2.cloud.redislabs.com",
         "PORT": 15374,
-        "DB": "taxi-app",
+        "DB": 0,
         "PASSWORD": "jNLs0cU9hHMpsqvhXMEAyUkkOGHTsvSf"
     }
 
