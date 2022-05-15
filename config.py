@@ -10,10 +10,10 @@ class Config(object):
     RIDE_COMPLETION_DURATION_IN_SEC = 300
     DRIVER_THRESHOLD = 5
     REDIS = {
-        "HOST": "redis-14708.c9.us-east-1-4.ec2.cloud.redislabs.com",
-        "PORT": 14708,
+        "HOST": "redis-15374.c8.us-east-1-3.ec2.cloud.redislabs.com",
+        "PORT": 15374,
         "DB": "taxi-app",
-        "PASSWORD": "pOW4ThGlhtR6fS8atmMeulDAqgWnkVa8"
+        "PASSWORD": "jNLs0cU9hHMpsqvhXMEAyUkkOGHTsvSf"
     }
 
 class ProductionConfig(Config):
